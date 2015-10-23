@@ -98,3 +98,13 @@ Tear down the test workloads.
 Or, alternatively simply tear down the cluster.
 
     ./demo/stop-cluster.sh
+
+## Build RPMs
+
+1. To build RPMs just type:
+
+        make builder-rpm
+
+2. To clean build stuff:
+
+        make builder-clean
